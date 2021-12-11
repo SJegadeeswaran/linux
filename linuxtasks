@@ -38,6 +38,8 @@ Edit the following in the httpd.conf file:
 
 Ref URL:
 
+https://stackoverflow.com/questions/34681936/what-is-httpd-exactly
+https://httpd.apache.org/
 https://www.tecmint.com/change-apache-port-in-linux/
 https://linuxhint.com/install-and-use-netstat-on-centos/
 https://www.ryadel.com/en/apache-setup-httpd-conf-file-send-http-security-headers-web-site/
