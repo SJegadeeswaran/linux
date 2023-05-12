@@ -1,0 +1,3 @@
+netstat -lntu (to list all the running ports)
+sudo lsof -i TCP:25672 (to get the pid)
+kill -9 <pid> (kill the process)
