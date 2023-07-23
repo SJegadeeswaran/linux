@@ -1,3 +1,6 @@
 netstat -lntu (to list all the running ports)
 sudo lsof -i TCP:25672 (to get the pid)
 kill -9 <pid> (kill the process)
+scp -i filename.pem filename.sh username@xx.xx.xxx.xx:/home/path
+keytool -list -v -keystore xxx.p12 (to verify the generated certificate)
+java -jar jd-gui-1.6.6.jar
