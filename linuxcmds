@@ -4,3 +4,6 @@ kill -9 <pid> (kill the process)
 scp -i filename.pem filename.sh username@xx.xx.xxx.xx:/home/path
 keytool -list -v -keystore xxx.p12 (to verify the generated certificate)
 java -jar jd-gui-1.6.6.jar
+sync && echo 3 | sudo tee /proc/sys/vm/drop_caches (to drop caches)
+# m h  dom mon dow   command
+*/1 * * * * echo "hi" > /SSD1/Jenkins/greeting.txt (Cron-changes)
