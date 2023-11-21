@@ -7,3 +7,16 @@ java -jar jd-gui-1.6.6.jar
 sync && echo 3 | sudo tee /proc/sys/vm/drop_caches (to drop caches)
 # m h  dom mon dow   command
 */1 * * * * echo "hi" > /SSD1/Jenkins/greeting.txt (Cron-changes)
+
+Some Linux network Commands:
+
+uptime
+dmesg|tail
+vmstat 1
+mpstat -P ALL 1
+pidstat 1
+iostat -xz 1
+free -m
+sar -n DEV 1
+sar -n TCP,ETCP 1
+top
